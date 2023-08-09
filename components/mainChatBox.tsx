@@ -41,7 +41,7 @@ export function MainChatBox() {
           method: "POST",
           body: JSON.stringify({
             key: openAiKey,
-            chatModel: "gpt-3.5-turbo",
+            chatModel: "gpt-4",
             PROMPT: "You are an ai assistant.",
             a: JSON.stringify(gptMessages),
             u: JSON.stringify(userMessages),
